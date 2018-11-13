@@ -2,7 +2,8 @@ body{
     font-family: monospace;
 }
 
-ul{
+/*Vertival navigation bar*/
+.nav-list{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,8 +21,8 @@ li a{
 }
 
 li a.active{
-    background-color: #4CAF50;
-    color: white;
+    background-color: #7dce94;
+    color: #3d3d3f;
 }
 
 li a:hover not(.active){
@@ -29,14 +30,38 @@ li a:hover not(.active){
     color: white;
 }
 
-@media only screen and (max-width:800px){
-    navbar{
-        width: 100%;
-    }
-}
+/*Welcome section of the first page*/
 
 #welcome-section{
     height: 100vh;
+    text-align: center;
+    padding: 100px;
+    background-color: #f6f5f3;
 }
+
+
+/*Experience Section*/
+#experience{
+    background-color: #7dce94;
+    padding: 1px 16px;
+    color: #3d3d3f;
+}
+
+#exp-head{
+    margin-left: 150px;
+    font-size: 20pt;
+}
+
+#exp-list{
+    margin-left: 150px;
+    list-style: none;
+}
+
+
+/*Footer - Social media icons*/
+.social{
+    margin-left: 150px;
+}
+
 
 
