@@ -56,17 +56,17 @@ li a:hover not(.active){
 
 /*General style of sections*/
 #section-head{
-    margin-left: 150px;
+    margin-left: 250px;
     font-size: 20pt;
 }
 
 #section-list{
-    margin-left: 150px;
+    margin-left: 250px;
     list-style: none;
 }
 
 .pub-image{
-    margin-left: 150px;
+    margin-left: 250px;
 }
 
 .banner{
@@ -75,10 +75,54 @@ li a:hover not(.active){
 }
 
 
-/*Footer - Social media icons*/
-.social{
-    margin-left: 45%;
+/*Social media icons - Side bar*/
+.icon-bar{
+    margin-left: 45px;
+    position: fixed;
+    top: 50%;
+    -webkit-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    transform: translate(-50%);
 }
+
+.icon-bar a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;     
+}
+
+icon-bar a:hover{
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
