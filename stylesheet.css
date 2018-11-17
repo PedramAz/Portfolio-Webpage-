@@ -30,6 +30,11 @@ li a:hover not(.active){
     color: white;
 }
 
+li a:hover{
+    background-color: #555;
+    color: white;
+}
+
 /*Welcome section of the first page*/
 
 #welcome-section{
@@ -65,13 +70,15 @@ li a:hover not(.active){
     list-style: none;
 }
 
-.pub-image{
+.publication-image{
     margin-left: 150px;
 }
 
+/*click here to buy, banner*/
+
 .banner{
-    width: 60px;
-    height: 45px;
+    width: 400px;
+    height: 145px;
 }
 
 
