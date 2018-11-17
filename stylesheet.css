@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     font-family: monospace;
 }
@@ -89,3 +90,133 @@ li a:hover{
 
 
 
+=======
+body{
+    font-family: monospace;
+}
+
+/*Vertival navigation bar*/
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    height: 100%;
+    background-color: #f1f1f1;
+    position: fixed;
+    overflow: auto;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+li a.active{
+    background-color: #7dce94;
+    color: #3d3d3f;
+}
+
+li a:hover not(.active){
+    background-color: #555;
+    color: white;
+}
+
+/*Welcome section of the first page*/
+
+#welcome-section{
+    height: 100vh;
+    text-align: center;
+    padding: 100px;
+    background-color: #f6f5f3;
+}
+
+
+/*Experience Section*/
+#experience{
+    background-color: #7dce94;
+    padding: 1px 16px;
+    color: #3d3d3f;
+}
+
+/*Publications Section*/
+#publications{
+    background-color: lightgray;
+    padding: 1px 16px;
+    color: #3d3d3f;
+}
+
+/*General style of sections*/
+#section-head{
+    margin-left: 250px;
+    font-size: 20pt;
+}
+
+#section-list{
+    margin-left: 250px;
+    list-style: none;
+}
+
+.pub-image{
+    margin-left: 250px;
+}
+
+.banner{
+    width: 60px;
+    height: 45px;
+}
+
+
+/*Social media icons - Side bar*/
+.icon-bar{
+    margin-left: 40px;
+    position: fixed;
+    top: 50%;
+    -webkit-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    transform: translate(-50%);
+}
+
+.icon-bar a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;     
+}
+
+icon-bar a:hover{
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 88628ce6c79d6cd79b68382f1fb6e3f90957c888
